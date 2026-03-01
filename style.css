@@ -1,27 +1,66 @@
+/* Global Style */
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background: #f0f0f0;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 40px 20px;
+  background: #f4f6f9;
+  color: #333;
 }
 
+/* Page Title */
 h1 {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 28px;
+  color: #2c3e50;
+  letter-spacing: 0.5px;
 }
 
+/* Table Styling */
 table {
-    margin: 0 auto;
-    border-collapse: collapse;
-    width: 80%;
-    background: #fff;
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 85%;
+  max-width: 1000px;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
-th,
-td {
-    padding: 10px;
-    border: 1px solid #ccc;
-}
-
+/* Table Header */
 th {
-    background: #f9f9f9;
+  background: #2c3e50;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+/* Table Cells */
+th, td {
+  padding: 14px 16px;
+  text-align: left;
+}
+
+/* Row Styling */
+tr {
+  border-bottom: 1px solid #eaeaea;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+/* Zebra Effect */
+tbody tr:nth-child(even) {
+  background-color: #f9fbfd;
+}
+
+/* Hover Effect */
+tbody tr:hover {
+  background-color: #eef3f8;
+  transition: background-color 0.3s ease;
 }

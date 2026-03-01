@@ -1,6 +1,6 @@
 
 // Replace <USERNAME> and <REPO> with your actual GitHub username and repository name
-const csvUrl = "https://raw.githubusercontent.com/HaninKhalil/webscraping-automation/main/bitcoin_hourly_data.csv";
+const csvUrl = "https://raw.githubuserc ontent.com/HaninKhalil/webscraping-automation/main/bitcoin_hourly_data.csv";
 
 async function fetchCsvData() {
     try {
